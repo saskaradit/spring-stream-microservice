@@ -1,0 +1,10 @@
+2022-01-19 13:48:38 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Starting TwitterToKafkaService using Java 11.0.14 on iMac-Rad.local with PID 5728 (/Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices/twitter-to-kafka/target/classes started by saskara in /Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices)
+2022-01-19 13:48:38 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - No active profile set, falling back to default profiles: default
+2022-01-19 13:48:38 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Started TwitterToKafkaService in 1.507 seconds (JVM running for 3.849)
+2022-01-19 13:48:38 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
+2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Starting TwitterToKafkaService using Java 11.0.14 on iMac-Rad.local with PID 6177 (/Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices/twitter-to-kafka/target/classes started by saskara in /Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices)
+2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - No active profile set, falling back to default profiles: default
+2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Started TwitterToKafkaService in 1.141 seconds (JVM running for 3.76)
+2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
+2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Hello Microservices
