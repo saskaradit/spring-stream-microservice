@@ -8,3 +8,117 @@
 2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
 2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
 2022-01-19 14:10:33 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Hello Microservices
+2022-01-19 16:03:41 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Starting TwitterToKafkaService using Java 11.0.14 on iMac-Rad.local with PID 7293 (/Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices/twitter-to-kafka/target/classes started by saskara in /Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices)
+2022-01-19 16:03:41 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - No active profile set, falling back to default profiles: default
+2022-01-19 16:03:42 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Started TwitterToKafkaService in 2.555 seconds (JVM running for 4.512)
+2022-01-19 16:03:42 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
+2022-01-19 16:03:42 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 16:03:42 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Hello Microservices
+2022-01-19 16:03:42 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-19 16:03:42 [main] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Started filtering twitter stream for keywords [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 16:03:43 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-19 16:03:43 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-19 16:03:43 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @RossaMullin: Chair of Board with member compromised by endless assaults on the truth & Irish people during the “pandemic”: Mark Little…
+2022-01-19 16:03:43 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @nisascotland @AutoPap The plan is to keep the vantage too. I’m hoping I get an idea of a delivery date in the spring. 🙏
+2022-01-19 16:03:43 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @LindaGrass0: Deploying AI in the heavy industry requires cross-functional teams of operators, data scientists, automation engineers, an…
+2022-01-19 16:03:43 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @FamMediation_NI @FamilyMedWeek @FamMedCouncil @CollofMeds @ParentingNI @familysupportni @HSCBoard @profsiobhanon @healthdpt So hence I'm looking for data to understand how successful mediation is and what happens if there are delays.
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @IntEngineering Hi, I am a structural engineer from Iran who have many ideas. I have summarized some of my ideas on my twitter(I suggest look at the idea of generating electricity by gravity). I want to work with companies and investors. Do you want to cooperate?
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @EnergyGenZ: Mantap, Subholding Upstream Pertamina luncurkan program data reprocessing seismik 2D cubed seluas 270.000 km2. Komitmen tin…
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @philipvollet: Just me annotating a data set full of raccoons!
+
+Are you also fascinated by these clever and brilliant creatures? https:/…
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Cisco 300-615
+01exam is stable now
+Get the latest accurate exam dumps in https://t.co/PROxc1sBZS
+visit us: https://t.co/IlD51KEXFN
+WhatsApp: +8618610046410/+8617782638871
+Skype:live:ielab.anna
+#CCIE #CCNP #CCNA #CORE #NERWORK #ENGINEER #EXAM #DUMPS #WRITTEN #VALID #discounts https://t.co/wtNPQfmL5I
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @GlassCrafty: Beautiful #spring flower candle shades available now, which would you choose, Bluebells or Snowdrops? 🤔
+Free UK delivery!…
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @curioshiki: オミクロンに関しては、まだ何か
+アジアとアフリカに「ファクターX」、ありそうな感じなんですよね。少ない。
+https://t.co/1j6FC0U7t2
+ただそうすると、この後、どこかで
+ファクターXを逃避する変異株が出るってことも考えておかなき…
+2022-01-19 16:03:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @yokonishizumi: トンガの海底火山フンガトンガって実際どんな形しているんだっけ、、えーっと、、昔トンガにいた時習ったけな?とリサーチしていたら見つけました。これが海底火山フンガトンガフンガハアパイの姿です。見た時、うわっとなりました。人間は自然にかなわない、…
+2022-01-19 16:03:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Good morning #twitterworld The sun is shining, why not cheery up a friend with a flowery greetings card! Lots of original prints to share … have a look in stylish shop 🤷🏻‍♀️ #MHHSBD #SmartSocial #LimitedEdition #flowers #Spring 😻🐈‍⬛ 
+https://t.co/ETJs12uD1j https://t.co/DqJrqBZkyC
+2022-01-19 16:03:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @ASKMeteo: Significant precipitation is expected to continue over some regions of #Africa in the next 24 hours: this #trivisWS animation…
+2022-01-19 16:03:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @kstarlivecom: Top 10 Currently Most Buzz-Worthy Dramas in South Korea for the Second Week of January, According to Data
+
+#OurBelovedSum…
+2022-01-19 16:03:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Valorant's new agent, Neon, was recently released by Riot Games after a number of data mining leaks and teasers. What do you about Neon and will you consider using Neon as your primary agent? Comment down your thoughts below!
+.
+#VALORANT #valorantesports #riot https://t.co/Act4CnVBBP
+2022-01-19 16:03:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Keren bgtt
+2022-01-19 16:03:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text "Caminando Frontera's data shows that 4,404 migrants died or disappeared last year trying to make their way to Spain, twice as many as in 2020."
+
+#CanaryIslands #Canaries #Morocco #CanaryRoute
+
+https://t.co/I000KD6lbQ
+2022-01-19 16:03:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @DiSSCobutDanish: Come work with us at the Natural History Museum of Denmark! These key roles are part of DaSSCo – our ambitious program…
+2022-01-19 16:03:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @_Iaura_: Let me emphasize that. In addition to the initial two-dose series plus booster, in 2022, you will be expected to be vaccinated…
+2022-01-19 16:03:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @Angama_Market: オーストラリアの死亡数です。ご査収ください。https://t.co/Vr8TVD2hTz https://t.co/btkcYMJRxY
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @PnhzPark: The wide hooves of Markhor help them maintain stable footing while climbing their rocky terrain. They migrate to higher altit…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @jeeri0318: 絶対買わないで欲しいです。
+フォローも辞めてほしい。
+問題も全く解決していません。
+ユンギを金儲けの為に使っているようなマスターです。
+(個人的にはマスターと呼びたく無い。詐欺師だと思ってます。)
+最近ユンギペンになった方達、何でもかんでもお金落と…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AirdropDet: 🔍 New #Airdrop: Adroverse
+
+💲Reward: Up to 112 ADR (~$3,5) + 63K ADR (~$2K) referral pool
+
+🔴 Start the airdrop bot: https://…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @JennieDCGallery: 220119 @ hyejoo_w 인스타그램 제니 (W Korea 편집장님)
+
+Chanel 2022 Spring/Summer Collection.
+🔗https://t.co/a6CXIalQnu
+
+#제니 #JENNIE…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AirdropDet: 🔍 New #Airdrop: AME Chain
+
+💲Reward: Up to 500 AME + 200K AME referral pool
+
+🔴 Start the airdrop bot https://t.co/GH64jlLXPl…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @MansionBet: Week one of the Spring Split was full of surprises; now our Esports expert looks forward to Week Two.
+
+https://t.co/3IOllHN…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @Wizarab10: People say this but I think it is more psychological than physical and generally, applies to women.
+
+Good sex makes them hap…
+2022-01-19 16:03:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @prive_alliance: Spring/Summer '21 "OFF DUTY" Shorts. 
+
+Available at https://t.co/BWTJ2rPXDu. https://t.co/JisgijYRn0
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @LindaGrass0: Deploying AI in the heavy industry requires cross-functional teams of operators, data scientists, automation engineers, an…
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @pranavibalivad1: We saw the tweets on her during yesterday's task in LF and how unbiased shippers mocked her. So plz don't give new dat…
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @mb_telangana: Under Maintenance Inspections Phase III, #MissionBhagiratha Superintending Engineer
+Sri Ch. Amarendra along with field st…
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @ReutersScience Hi, I am a structural engineer from Iran who have many ideas. I have summarized some of my ideas on my twitter(I suggest look at the idea of generating electricity by gravity). I want to work with companies and investors. Do you want to cooperate?
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AirdropDet: 🔍 New #Airdrop: AME Chain
+
+💲Reward: Up to 500 AME + 200K AME referral pool
+
+🔴 Start the airdrop bot https://t.co/GH64jlLXPl…
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AirdropDet: 🔍 New #Airdrop: AME Chain
+
+💲Reward: Up to 500 AME + 200K AME referral pool
+
+🔴 Start the airdrop bot https://t.co/GH64jlLXPl…
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @POKI33847251: Cervia era detta "La città dell'oro bianco", grazie alla ricchezza data dal commercio del sale. Nella  Salina di Cervia,…
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text invoice Developer Handmade Loan Orchestrator Colorado Engineer PCI Corporate RSS superstructure compress
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text "How I moved from 0 USD to 40,000 USD," tech savvy and digital creator @heyeaslo shares success story
+
+ https://t.co/9SnGNiGDZ7
+2022-01-19 16:03:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @10_mi_n: 何かの2位になりました🥺👍👍
+2022-01-19 16:03:50 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @DrTomFrieden “Here is no data to support anything I’m saying, here’s a number that doesn’t back anything up, here’s a photo of a woman giving birth. 
+
+C:> start backend/safetyspeech1.js -humanmode=5 —dataNull
+
+“Vaccines are safe and remarkably effective…”
+ 
+These people are flat out lying.
+2022-01-19 16:03:50 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @MilanEye Civil engineer apparently
+2022-01-19 16:03:50 [SpringApplicationShutdownHook] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Closing twitter stream
