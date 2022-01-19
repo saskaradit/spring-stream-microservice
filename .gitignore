@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+twitter-to-kafka/src/main/resources/twitter4j.properties
