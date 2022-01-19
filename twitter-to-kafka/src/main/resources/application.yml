@@ -1,0 +1,9 @@
+twitter-ko-kafka-service:
+  twitter-keywords:
+    - Engineer
+    - Microservices
+    - Data
+    - Spring
+    - Kafka
+    - Elasticsearch
+  welcome-message: Hello Microservices
