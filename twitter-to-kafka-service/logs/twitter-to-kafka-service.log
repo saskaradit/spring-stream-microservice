@@ -122,3 +122,51 @@ C:> start backend/safetyspeech1.js -humanmode=5 —dataNull
 These people are flat out lying.
 2022-01-19 16:03:50 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @MilanEye Civil engineer apparently
 2022-01-19 16:03:50 [SpringApplicationShutdownHook] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Closing twitter stream
+2022-01-19 16:46:05 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Starting TwitterToKafkaService using Java 11.0.14 on iMac-Rad.local with PID 7601 (/Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices/twitter-to-kafka/target/classes started by saskara in /Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices)
+2022-01-19 16:46:05 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - No active profile set, falling back to default profiles: default
+2022-01-19 16:46:07 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Started TwitterToKafkaService in 3.248 seconds (JVM running for 5.867)
+2022-01-19 16:46:07 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
+2022-01-19 16:46:07 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 16:46:07 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Hello Microservices
+2022-01-19 16:46:07 [main] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Starting mock filtering twitter streams for keywords
+2022-01-19 16:46:07 [pool-1-thread-1] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Error creating twitter status:
+twitter4j.TwitterException: Unterminated object at character 75 of {"created at":" Wed Jan 19 16:46:07 WIB 2022","text":" 7469766367631790202"
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
+	at com.streamicroservice.twitter.to.kafka.runner.impl.MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: twitter4j.JSONException: Unterminated object at character 75 of {"created at":" Wed Jan 19 16:46:07 WIB 2022","text":" 7469766367631790202"
+	at twitter4j.JSONTokener.syntaxError(JSONTokener.java:486)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:427)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONObject.<init>(JSONObject.java:167)
+	at twitter4j.JSONObject.<init>(JSONObject.java:184)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	... 6 common frames omitted
+2022-01-19 16:46:58 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Starting TwitterToKafkaService using Java 11.0.14 on iMac-Rad.local with PID 7614 (/Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices/twitter-to-kafka/target/classes started by saskara in /Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices)
+2022-01-19 16:46:58 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - No active profile set, falling back to default profiles: default
+2022-01-19 16:46:59 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Started TwitterToKafkaService in 1.065 seconds (JVM running for 2.496)
+2022-01-19 16:46:59 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
+2022-01-19 16:46:59 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 16:46:59 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Hello Microservices
+2022-01-19 16:46:59 [main] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Starting mock filtering twitter streams for keywords
+2022-01-19 16:46:59 [pool-1-thread-1] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Error creating twitter status:
+twitter4j.TwitterException: Unterminated object at character 115 of {"created at":" Wed Jan 19 16:46:59 WIB 2022","text":" consectetuer amet Maecenas Microservices consectetuer Lorem"
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
+	at com.streamicroservice.twitter.to.kafka.runner.impl.MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: twitter4j.JSONException: Unterminated object at character 115 of {"created at":" Wed Jan 19 16:46:59 WIB 2022","text":" consectetuer amet Maecenas Microservices consectetuer Lorem"
+	at twitter4j.JSONTokener.syntaxError(JSONTokener.java:486)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:427)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONObject.<init>(JSONObject.java:167)
+	at twitter4j.JSONObject.<init>(JSONObject.java:184)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	... 6 common frames omitted
