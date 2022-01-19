@@ -1,4 +1,4 @@
-package com.streamicroservice.twitter.to.kafka.config;
+package com.streamicroservices.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

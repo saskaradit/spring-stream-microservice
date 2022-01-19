@@ -1,4 +1,4 @@
-package com.streamicroservice.twitter.to.kafka.exception;
+package com.streamicroservices.twitter.to.kafka.exception;
 
 public class TwitterToKafkaServiceException extends RuntimeException{
     public TwitterToKafkaServiceException(){

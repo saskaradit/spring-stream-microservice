@@ -1,10 +1,10 @@
-package com.streamicroservice.twitter.to.kafka;
+package com.streamicroservices.twitter.to.kafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class TwitterToKafkaSerciceTest {
+public class TwitterToKafkaServiceTest {
 
     @Test
     public void contextLoad(){

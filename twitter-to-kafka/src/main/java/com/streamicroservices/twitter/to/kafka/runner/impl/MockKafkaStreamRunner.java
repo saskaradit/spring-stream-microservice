@@ -1,9 +1,9 @@
-package com.streamicroservice.twitter.to.kafka.runner.impl;
+package com.streamicroservices.twitter.to.kafka.runner.impl;
 
-import com.streamicroservice.twitter.to.kafka.config.TwitterToKafkaServiceConfigData;
-import com.streamicroservice.twitter.to.kafka.exception.TwitterToKafkaServiceException;
-import com.streamicroservice.twitter.to.kafka.listener.TwitterKafkaStatusListener;
-import com.streamicroservice.twitter.to.kafka.runner.StreamRunner;
+import com.streamicroservices.config.TwitterToKafkaServiceConfigData;
+import com.streamicroservices.twitter.to.kafka.exception.TwitterToKafkaServiceException;
+import com.streamicroservices.twitter.to.kafka.listener.TwitterKafkaStatusListener;
+import com.streamicroservices.twitter.to.kafka.runner.StreamRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -18,7 +18,6 @@ import java.util.Arrays;
 import java.util.Locale;
 import java.util.Random;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadLocalRandom;
 
 @Component
 @ConditionalOnProperty(name = "twitter-ko-kafka-service.enable-mock-tweets")

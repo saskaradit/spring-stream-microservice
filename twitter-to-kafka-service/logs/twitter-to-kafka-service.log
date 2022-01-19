@@ -132,7 +132,7 @@ These people are flat out lying.
 2022-01-19 16:46:07 [pool-1-thread-1] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Error creating twitter status:
 twitter4j.TwitterException: Unterminated object at character 75 of {"created at":" Wed Jan 19 16:46:07 WIB 2022","text":" 7469766367631790202"
 	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
-	at com.streamicroservice.twitter.to.kafka.runner.impl.MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:64)
+	at MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:64)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -156,7 +156,7 @@ Caused by: twitter4j.JSONException: Unterminated object at character 75 of {"cre
 2022-01-19 16:46:59 [pool-1-thread-1] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Error creating twitter status:
 twitter4j.TwitterException: Unterminated object at character 115 of {"created at":" Wed Jan 19 16:46:59 WIB 2022","text":" consectetuer amet Maecenas Microservices consectetuer Lorem"
 	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
-	at com.streamicroservice.twitter.to.kafka.runner.impl.MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:64)
+	at MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:64)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -170,3 +170,110 @@ Caused by: twitter4j.JSONException: Unterminated object at character 115 of {"cr
 	at twitter4j.JSONObject.<init>(JSONObject.java:184)
 	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
 	... 6 common frames omitted
+2022-01-19 20:44:42 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Starting TwitterToKafkaService using Java 11.0.14 on iMac-Rad.local with PID 8635 (/Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices/twitter-to-kafka/target/classes started by saskara in /Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/streamicroservices)
+2022-01-19 20:44:42 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - No active profile set, falling back to default profiles: default
+2022-01-19 20:44:43 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Started TwitterToKafkaService in 1.883 seconds (JVM running for 3.769)
+2022-01-19 20:44:43 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - App starts...
+2022-01-19 20:44:43 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 20:44:43 [main] INFO  c.s.t.to.kafka.TwitterToKafkaService - Hello Microservices
+2022-01-19 20:44:43 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-19 20:44:43 [main] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Started filtering twitter stream for keywords [Engineer, Microservices, Data, Spring, Kafka, Elasticsearch]
+2022-01-19 20:44:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-19 20:44:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-19 20:44:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @arup0011 @ProbirM82140722 @UdiptoM 
+
+ This is excellent project for the future with strong team, a transparent, planned and project roadmap. it will be successfulI.
+#Airdrop   #Metaverse #NFT  #BSC  #elon #NFTs #shiba #spaceshib
+2022-01-19 20:44:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @EricTopol: It seems the people who write the vaccines w/ a booster aren't working against Omicron are completely out of touch with the…
+2022-01-19 20:44:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @ZashiDiary: 【予告】SPRiNG 4月号は、ネコのうにくん ストラップ付き縦型じゃばらカードケース。裏面にはICカード入れスペースがあります。
+雑誌付録紹介ブログ　→https://t.co/r6zHWi5Drc
+#スプリング #ネコ #ねこ #猫 #雑誌付…
+2022-01-19 20:44:44 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @anggasasongko: Saya bisa anda hubungi di angga@filosofikopi.id - filmnya belum rilis dan anda tonton, tapi sudah klaim bahwa ide anda k…
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @P_McCulloughMD: Despite bias and censorship in the medical literature and popular media, myself and colleagues have relied upon data an…
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @_timos_: AstraZeneca rolls out 'unprecedented' 3-year survival data for PD-L1/CTLA4 combo in liver cancer https://t.co/L8YGxMoSUN #stra…
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @Ro1Coach: 🚨4 Year Coaches🚨 @Ziri_3 6’3” shooting guard with 3 yrs to play. One of the top 3pt shooters in Region 2 (43%) averaging 16.4…
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text $SBEV offering coming soon. they burned $11mil last quarter, with just $8mil in cash sitting on the balance sheet. 
+ https://t.co/zjLBZ00Fcu
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @CXK_Thailand: 220119 北京文艺广播 WeChat Update
+
+#ช่ายสวีคุน จะร้องเพลง《The Mountains and Rivers Are in My Heart》ในงาน 2022 Beijing TV Spring…
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AMMAONLINE2: Though WHO has mandate to collect the data about the destructed & looted health cares by terrorist TPLF in Afar & Amhara s…
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text actually,  i  don’t  want  spring  to  come.  i  don’t  want  it  to  get  warmer.  just  looking  at  you  smile  from  afar  makes  my  heart  ache.
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @Rainbow6Game @UbisoftSupport Can you add changing data centers in siege plz ubi
+2022-01-19 20:44:45 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @haletoke: 古都の春の香り
+The scent of spring in Kyoto https://t.co/7oH1SazlzJ
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @BigTrainHomer99: Chris has been a keystone of this organization for years, giving his all in the position and giving opportunity to int…
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @nifemioluboyede: Just before you venture into User Research, remember that small Data Analysis skills can be a huge differentiator.
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Good luck 
+@4nn_zbdh @ksjdjwkdjwj2 @_bbxbd_
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @dataedwhite: 7th grade DATA is fundraising for an awesome field trip to the @BullockMuseum. Please support our kiddos to get this exper…
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @_timos_: Almost three years after whiffing in a confirmatory study, Merck touts new data for Keytruda in HCC https://t.co/OE4j2PwV1I #s…
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Though coined earlier, the term photonics came into common use in the 1980s as fiber-optic data transmission was adopted by telecommunications network operators. At that time, the term was used widely at Bell Laboratories.
+2022-01-19 20:44:46 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @CandyCashNFT: 💰CANDY CASH! MASSIVE #AIRDROP IS LIVE!📦🪂
+
+🤑FREE TOKENS🤑
+
+💸Rewards: 1,100,00O $CANDY Tokens Pool💸
+
+⏰Start the Application…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @TheSWU: NEWS: According to @SW_Insider, season two of ‘The Bad Batch’ will premiere in “Spring 2022”. 💥 https://t.co/vwhD96q3jT https:/…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @itacchiku: 春巻きの皮はそのまま食べられると知って、やってみたかった春巻きの皮ラップサンド。夕飯の鶏天にタルタルソースをガバァってしたやつを巻いた。全然そのままで美味しいし癖がない。皮が薄いのでトルティーヤよりさらに軽く食べられてかなりいい感じ！これはアリアリ…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @esports_RAGE: 【#RAGEシャドウバース 2022 Spring】
+
+／
+✨2次予選 開催記念✨
+🎉フォロー＆RTキャンペーン🎉
+＼
+
+🔽応募方法
+①RAGEアカウントをフォロー
+②本ツイートをRT
+
+🔥今週の日曜日に開催🔥
+2次予選をみんなで盛り上げよう…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @KatrinaHLewis: When Medtronic offered the world's first closed-loop insulin delivery system, it changed how diabetes patients could liv…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AirdropDet: 🔍 New #Airdrop: AME Chain
+
+💲Reward: Up to 500 AME + 200K AME referral pool
+
+🔴 Start the airdrop bot https://t.co/GH64jlLXPl…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text I hope his part makes the cut. You never know until after a certain amount of rehearsals 😭
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @Josie19752: #UnMaskUSFORTHEM “Dodgy Data” well #UsforThemUK actually do know a lot about that as most of theirs comes from Battacharya…
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @Carolsousa001 JÁ HÁ DATA https://t.co/z4ZMgM0Nnn
+2022-01-19 20:44:47 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @ChrisCoons: Great to see the Washington Post Ed Board endorsing my new bipartisan social media bill: “Our social media struggles are mo…
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @lovealchemists: 🐱🍁
+"And so, spring begins"
+by @cat_unicreating 
+🌸🌸🌸
+written for @Tomozuha_MB
+You can read it here♥️→https://t.co/Ut849h…
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @st4rcourtmall: todo dia uma foto aleatória de stranger things até anunciarem a data de lançamento da quarta temporada 
+
+DIA 73 https://…
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text An ideal Mother's Day gift as we transition into Spring!
+
+#UKMakers
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @janmshep: The UK government has looked at the data and decided that this is the perfect time to lift all restrictions. This policy coul…
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text encompassing Data green Hat action-items Producer dot-com payment HTTP Secured Chips bypass
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @AirdropDet: 🔍 New #Airdrop: Gamestate
+
+💲Reward: Up to 200 STATE (~$10) + 40K STATE (~$2K) referral pool
+
+🔴 Start the airdrop bot: https…
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Fuuuuck her power aaargh 🥴🥴
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text New high score for units under construction, implied completion times for single family lower, sf data all bounced....good report. Northeast saw an unusual spike in permits that will get paid back but otherwise nice December data for housing.
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text Untuk Informasi Lebih Lanjut Mohon Dengan Sangat Kepada Bpk/Ibu Pelanggan Untuk Verifikasi Data Silakan hubungi HaloBCA Via WA  
+https://t.co/owHyyU5PMb, 
+ Tks:)^Arita
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @wadebaker: Brand new research from the data-driven duo of @KennaSecurity and @cyentiainst
+2022-01-19 20:44:48 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @KassieMcClung: For the third day straight, Oklahoma broke the record for new cases of COVID-19 reported in a single day with *14,403 ca…
+2022-01-19 20:44:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text RT @NightRunning852: 【HQ】220119 Spring Festival Gala rehearsal
+ 
+💜Taro
+
+#jacksonwang
+#잭슨 
+#王嘉爾
+@JacksonWang852 https://t.co/WKDB8iXU6Q
+2022-01-19 20:44:49 [Twitter4J Async Dispatcher[0]] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text @BuckWoodyMSFT Love the use of Data Bricks Buck!
+2022-01-19 20:44:49 [SpringApplicationShutdownHook] INFO  c.s.t.t.k.l.TwitterKafkaStatusListener - Closing twitter stream
