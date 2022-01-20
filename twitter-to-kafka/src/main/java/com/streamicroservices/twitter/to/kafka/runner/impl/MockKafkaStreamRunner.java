@@ -1,6 +1,6 @@
 package com.streamicroservices.twitter.to.kafka.runner.impl;
 
-import com.streamicroservices.config.TwitterToKafkaServiceConfigData;
+import com.streamicroservices.common.config.TwitterToKafkaServiceConfigData;
 import com.streamicroservices.twitter.to.kafka.exception.TwitterToKafkaServiceException;
 import com.streamicroservices.twitter.to.kafka.listener.TwitterKafkaStatusListener;
 import com.streamicroservices.twitter.to.kafka.runner.StreamRunner;

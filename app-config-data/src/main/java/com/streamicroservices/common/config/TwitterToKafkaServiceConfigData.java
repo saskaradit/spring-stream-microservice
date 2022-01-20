@@ -1,4 +1,4 @@
-package com.streamicroservices.config;
+package com.streamicroservices.common.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
