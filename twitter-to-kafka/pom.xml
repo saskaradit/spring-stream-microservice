@@ -28,7 +28,14 @@
         <dependency>
             <groupId>com.streamicroservices</groupId>
             <artifactId>app-config-data</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.streamicroservices</groupId>
+            <artifactId>kafka-admin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.streamicroservices</groupId>
+            <artifactId>kafka-producer</artifactId>
         </dependency>
     </dependencies>
 
