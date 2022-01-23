@@ -5,9 +5,9 @@ import com.streamicroservices.kafka.admin.client.KafkaAdminClient;
 import com.streamicroservices.twitter.to.kafka.init.StreamInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
-@ComponentScan(basePackages = "com.streamicroservices")
+@Component
 public class KafkaStreamInitializer implements StreamInitializer {
 
     private static final Logger LOG = LoggerFactory.getLogger(KafkaStreamInitializer.class);

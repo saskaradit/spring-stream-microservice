@@ -35,4 +35,3 @@ public class TwitterToKafkaService implements CommandLineRunner {
         streamRunner.start();
     }
 }
-
