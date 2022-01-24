@@ -5,6 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/saskara/Documents/Course/Udemy/Event-Driven-Spring/config-server-repository
+          uri: https://github.com/saskaradit/spring-config
           clone-on-start: true
+        bootstrap: true
+      enabled: true
     fail-fast: true
