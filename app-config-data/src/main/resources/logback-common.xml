@@ -28,7 +28,7 @@
     </appender>
 
 
-    <logger name="com.streamicroservices.demo" level="info" additivity="false">
+    <logger name="com.streamicroservices" level="info" additivity="false">
         <appender-ref ref="FILE"/>
         <appender-ref ref="STDOUT"/>
     </logger>
