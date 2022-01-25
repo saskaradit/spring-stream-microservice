@@ -10,3 +10,7 @@ spring:
         bootstrap: true
       enabled: true
     fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: springpassword

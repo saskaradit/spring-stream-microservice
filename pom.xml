@@ -40,6 +40,7 @@
 		<springdoc-openapi-ui.version>1.5.9</springdoc-openapi-ui.version>
 		<spring-cloud-dependencies.version>2020.0.2</spring-cloud-dependencies.version>
 		<spring-cloud-starter-zipkin.version>2.2.8.RELEASE</spring-cloud-starter-zipkin.version>
+		<jasypt-spring-boot-starter.version>3.0.4</jasypt-spring-boot-starter.version>
 	</properties>
 
 	<repositories>
@@ -123,6 +124,12 @@
 			</dependency>
 
 			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-security</artifactId>
+				<version>${spring-boot.version}</version>
+			</dependency>
+
+			<dependency>
 				<groupId>org.springframework.kafka</groupId>
 				<artifactId>spring-kafka</artifactId>
 				<version>${spring-kafka.version}</version>
@@ -132,6 +139,12 @@
 				<groupId>org.springframework.retry</groupId>
 				<artifactId>spring-retry</artifactId>
 				<version>${spring-retry.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.ulisesbocchio</groupId>
+				<artifactId>jasypt-spring-boot-starter</artifactId>
+				<version>${jasypt-spring-boot-starter.version}</version>
 			</dependency>
 
 			<dependency>
