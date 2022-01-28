@@ -19,6 +19,18 @@
         </dependency>
         <dependency>
             <groupId>com.streamicroservices</groupId>
+            <artifactId>elastic-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.streamicroservices</groupId>
+            <artifactId>elastic-index-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.streamicroservices</groupId>
+            <artifactId>kafka-consumer</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.streamicroservices</groupId>
             <artifactId>kafka-admin</artifactId>
         </dependency>
         <dependency>
