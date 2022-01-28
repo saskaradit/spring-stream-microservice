@@ -1,6 +1,5 @@
 package com.streamicroservices.kafka.consumer.config;
 
-
 import com.streamicroservices.common.config.KafkaConfigData;
 import com.streamicroservices.common.config.KafkaConsumerConfigData;
 import org.apache.avro.specific.SpecificRecordBase;
